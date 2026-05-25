@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python manage.py migrate && python seed_data.py && gunicorn breathe_esg.wsgi --log-file -",
+    "healthcheckPath": "/api/auth/login/",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}

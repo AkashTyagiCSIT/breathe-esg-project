@@ -1,0 +1,16 @@
+meter_id,site,billing_start,billing_end,consumption_kwh,tariff,grid_region,country,amount_inr
+MTR-DEL-001,Delhi HQ,2024-01-01,2024-01-31,48250,Commercial HT,Northern Grid,IN,578000
+MTR-DEL-002,Delhi Warehouse,2024-01-01,2024-01-31,22100,Industrial LT,Northern Grid,IN,265200
+MTR-MUM-001,Mumbai Office,2024-01-01,2024-01-31,31500,Commercial HT,Western Grid,IN,378000
+MTR-BLR-001,Bangalore Tech Park,2024-01-01,2024-01-31,61800,Commercial HT,Southern Grid,IN,741600
+MTR-DEL-001,Delhi HQ,2024-02-01,2024-02-29,45600,Commercial HT,Northern Grid,IN,547200
+MTR-DEL-002,Delhi Warehouse,2024-02-01,2024-02-29,19800,Industrial LT,Northern Grid,IN,237600
+MTR-MUM-001,Mumbai Office,2024-02-01,2024-02-29,29300,Commercial HT,Western Grid,IN,351600
+MTR-BLR-001,Bangalore Tech Park,2024-02-01,2024-02-29,58900,Commercial HT,Southern Grid,IN,706800
+MTR-DEL-001,Delhi HQ,2024-03-01,2024-03-31,52100,Commercial HT,Northern Grid,IN,625200
+MTR-HYD-001,Hyderabad Plant,2024-03-01,2024-03-31,89400,Industrial HT,Southern Grid,IN,1072800
+MTR-DEL-002,Delhi Warehouse,2024-03-01,2024-03-31,24500,Industrial LT,Northern Grid,IN,294000
+MTR-MUM-001,Mumbai Office,2024-03-01,2024-03-31,33200,Commercial HT,Western Grid,IN,398400
+MTR-BLR-001,Bangalore Tech Park,2024-03-01,2024-03-31,63700,Commercial HT,Southern Grid,IN,764400
+MTR-HYD-001,Hyderabad Plant,2024-04-01,2024-04-30,0,Industrial HT,Southern Grid,IN,0
+MTR-DEL-001,Delhi HQ,2024-04-01,2024-04-30,610000,Commercial HT,Northern Grid,IN,7320000

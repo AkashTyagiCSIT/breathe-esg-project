@@ -1,0 +1,26 @@
+travel_date,trip_type,origin,destination,distance_km,nights,traveler,cost_center,amount_inr
+2024-01-08,flight,DEL,BOM,,0,Priya Sharma,CC-1001,18500
+2024-01-09,flight,BOM,DEL,,0,Priya Sharma,CC-1001,18500
+2024-01-10,hotel,,BOM,,2,Priya Sharma,CC-1001,12000
+2024-01-15,flight,DEL,LHR,,0,Rahul Mehta,CC-2001,85000
+2024-01-17,flight,LHR,DEL,,0,Rahul Mehta,CC-2001,85000
+2024-01-15,hotel,,LHR,,2,Rahul Mehta,CC-2001,32000
+2024-01-20,taxi,DEL,Gurgaon,28,,Ananya Rao,CC-1002,450
+2024-01-22,flight,BLR,DEL,,0,Vikram Singh,CC-3001,12800
+2024-01-23,flight,DEL,BLR,,0,Vikram Singh,CC-3001,12800
+2024-02-05,flight,DEL,DXB,,0,Priya Sharma,CC-1001,42000
+2024-02-07,flight,DXB,DEL,,0,Priya Sharma,CC-1001,42000
+2024-02-05,hotel,,DXB,,2,Priya Sharma,CC-1001,28000
+2024-02-12,rental_car,BLR,Mysore,145,,Rahul Mehta,CC-2001,3500
+2024-02-18,flight,DEL,SIN,,0,Ananya Rao,CC-1002,55000
+2024-02-20,flight,SIN,DEL,,0,Ananya Rao,CC-1002,55000
+2024-02-18,hotel,,SIN,,2,Ananya Rao,CC-1002,38000
+2024-03-01,train,DEL,AGR,200,,Vikram Singh,CC-3001,800
+2024-03-10,flight,DEL,BOM,,0,Riya Patel,CC-2002,16500
+2024-03-10,hotel,,BOM,,1,Riya Patel,CC-2002,7500
+2024-03-15,taxi,MUM,Airport,32,,Riya Patel,CC-2002,650
+2024-03-20,flight,DEL,XYZ,,0,Rahul Mehta,CC-2001,22000
+2024-04-01,flight,DEL,JFK,,0,Ananya Rao,CC-1002,95000
+2024-04-05,flight,JFK,DEL,,0,Ananya Rao,CC-1002,95000
+2024-04-01,hotel,,JFK,,4,Ananya Rao,CC-1002,72000
+2024-04-10,bus,BLR,Pune,840,,Vikram Singh,CC-3001,1200
