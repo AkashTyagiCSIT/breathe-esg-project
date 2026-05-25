@@ -1,14 +1,14 @@
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"status": "API running"})
 
 urlpatterns = [
+    path('', home),
     path('admin/', admin.site.urls),
-    path('api/auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api/', include('tenants.urls')),
+
+    # your existing app routes
     path('api/', include('ingestion.urls')),
-    path('api/', include('emissions.urls')),
-    path('api/', include('review_dashboard.urls')),
-    path('api/', include('audit.urls')),
 ]
