@@ -4,16 +4,14 @@ Django REST + React app for ESG emissions data ingestion, normalization, and ana
 
 ## Local Setup
 
-### Backend
+### Backend (Render)
 
-```bash
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py migrate
-python seed_data.py
-python manage.py runserver
-```
+1. Push to GitHub
+2. Create new Web Service on render.com from GitHub repo
+3. Set Root Directory: `claude`
+4. Add PostgreSQL database and copy `DATABASE_URL`
+5. Set env vars: `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS=*`, `DATABASE_URL`
+6. Start Command: `gunicorn breathe_esg.wsgi`
 
 Backend runs at http://localhost:8000
 
