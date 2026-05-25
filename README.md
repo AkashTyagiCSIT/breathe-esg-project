@@ -45,13 +45,14 @@ Upload files from `sample_data/` on the Ingest page:
 
 ## Deployment
 
-### Backend (Railway)
+### Backend (Render)
 
 1. Push to GitHub
-2. New project on railway.app → Deploy from GitHub repo
-3. Add PostgreSQL plugin
-4. Set env vars: `SECRET_KEY`, `DEBUG=False`
-5. Railway auto-injects `DATABASE_URL`
+2. Create new Web Service on render.com from GitHub repo
+3. Set Root Directory: `claude`
+4. Add PostgreSQL database and copy `DATABASE_URL`
+5. Set env vars: `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS=*`, `DATABASE_URL`
+6. Start Command: `gunicorn breathe_esg.wsgi`
 
 ### Frontend (Vercel)
 
