@@ -2,13 +2,17 @@ from django.contrib import admin
 from django.urls import path, include
 from django.http import JsonResponse
 
-def home(request):
-    return JsonResponse({"status": "API running"})
+
+def health(request):
+    return JsonResponse({"status": "healthy"})
+
 
 urlpatterns = [
-    path('', home),
+    path('', health),
+    path('api/health/', health),
+
     path('admin/', admin.site.urls),
 
-    # your existing app routes
+    # API routes
     path('api/', include('ingestion.urls')),
 ]
