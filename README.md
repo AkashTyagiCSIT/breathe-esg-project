@@ -8,7 +8,7 @@ Django REST + React app for ESG emissions data ingestion, normalization, and ana
 
 ```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate       
 pip install -r requirements.txt
 python manage.py migrate
 python seed_data.py
