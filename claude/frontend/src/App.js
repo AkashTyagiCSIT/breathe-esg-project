@@ -19,9 +19,7 @@ export default function App() {
     localStorage.removeItem('access_token');
     setToken(null);
   };
- const logout = () => {
-    
-  };
+
 
   if (!token) return <Login onLogin={setToken} />;
 
