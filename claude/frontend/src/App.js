@@ -19,11 +19,14 @@ export default function App() {
     localStorage.removeItem('access_token');
     setToken(null);
   };
-  // app.js
+ const logout = () => {
+    
+  };
 
   if (!token) return <Login onLogin={setToken} />;
 
-  const pages = { dashboard: Dashboard, ingest: Ingest, review: Review, audit: AuditPage };
+  const pages = { dashboard: Dashboard, ingest: Ingest, review: Review, audit: 
+    AuditPage };
   const Page = pages[page] || Dashboard;
 
   return (
