@@ -19,6 +19,7 @@ export default function App() {
     localStorage.removeItem('access_token');
     setToken(null);
   };
+  // app.js
 
   if (!token) return <Login onLogin={setToken} />;
 
